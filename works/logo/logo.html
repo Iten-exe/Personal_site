@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Logo</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+			<header class="header">
+
+				<div class="header_shadow">
+				
+					<div class="header_items _container">
+
+						<div class="header_item logo">
+							<a href="">logo</a>
+						</div>
+
+						<div class="header_item icons">
+
+							<a class="header_item_icon" href="">
+								<img src="img/header_icon_person.svg" alt="упс">
+							</a>
+
+							<a class="header_item_icon" href="">
+								<img src="img/header_icon_like.svg" alt="упс">
+							</a>
+
+							<a class="header_item_icon" href="">
+								<img src="img/header_icon_bag.svg" alt="упс">
+							</a>
+
+							<div class="header_item_icon icon_menu" onclick="openMenu()">
+								<img src="img/header_icon_menu.svg" alt="упс">
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+
+			</header>
+
+			<section class="product">
+
+				<div class="product_inner _container">
+				
+					<div class="product_img">
+
+						<div class="product_img_active">
+
+							<img class="qwe" src="img/product_img_start.png" alt="упс">
+						
+
+							<div class="product_img_passive first_img">
+								<img class="qwe1" src="img/product_img_passive_1.png" alt="упс">
+							</div>
+
+							<div class="product_img_passive second_img">
+								<img class="qwe2" src="img/product_img_passive_2.png" alt="упс">
+							</div>
+
+							<div class="product_img_passive third_img">
+								<img class="qwe3" src="img/product_img_passive_3.png" alt="упс">
+							</div>
+
+							<div class="product_img_passive fourth_img">
+								<img class="qwe4" src="img/product_img_passive_4.png" alt="упс">
+							</div>
+
+							<div class="product_img_passive fifth_img">
+								<img class="qwe5" src="img/product_img_passive_5.png" alt="упс">
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="product_description">
+
+						<div class="product_description_name hover">
+
+							<a href="">Пижама для девочек</a>
+
+						</div>
+
+						<div class="product_description_code">
+							Арт. 02765/46
+						</div>
+
+						<div class="product_description_reviews">
+
+							<div class="product_description_reviews_name hover">
+								<a href="">Отзывы</a>
+							</div>
+
+							<div class="product_description_reviews_stars">
+
+								<div class="product_description_reviews_stars_black">
+									<img src="img/product_description_reviews_stars_black.svg" alt="упс">
+								</div>
+
+								<div class="product_description_reviews_stars_black">
+									<img src="img/product_description_reviews_stars_black.svg" alt="упс">
+								</div>
+
+								<div class="product_description_reviews_stars_black">
+									<img src="img/product_description_reviews_stars_black.svg" alt="упс">
+								</div>
+
+								<div class="product_description_reviews_stars_black">
+									<img src="img/product_description_reviews_stars_black.svg" alt="упс">
+								</div>
+
+								<div class="product_description_reviews_stars_white">
+									<img src="img/product_description_reviews_stars_white.svg" alt="упс">
+								</div>
+	
+							</div>
+
+							<div class="product_description_reviews_number hover">
+
+								<a href="">14 отзывов</a>
+
+							</div>
+
+							<a class="product_description_reviews_arrow" href="">
+
+								<img src="img/product_description_reviews_arrow.svg" alt="упс">
+
+							</a>
+
+						</div>
+
+						<div class="product_description_price">
+
+							<div class="product_description_price_now">
+								800 ₽
+							</div>
+
+							<div class="product_description_price_old">
+								1 500 ₽
+							</div>
+
+							<a class="product_description_price_arrow" href="">
+
+								<img src="img/product_description_reviews_arrow.svg" alt="упс">
+
+							</a>
+							
+						</div>
+
+						<div class="product_description_discount">
+
+							<div class="product_description_discount_discount">
+								скидка -36%
+							</div>
+
+							<div class="product_description_discount_action">
+								акция -20%
+							</div>
+
+						</div>
+
+						<div class="product_description_sizeselect">
+
+							<select>
+
+								<option value="" disabled selected hidden id="select_name">Выбрать размер</option>
+								<option value="1">52</option>
+								<option value="2">54</option>
+								<option value="3">55</option>
+
+							</select>
+
+							<div class="product_description_sizedefine">
+
+								<a href="">Определить размер</a>
+					
+							</div>
+
+						</div>
+
+						<div class="product_description_cart">
+
+							<div class="product_description_cart_counter">	
+
+								<button class="product_description_cart_counter_minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+
+								<input type="number" min="0" value="1" readonly>
+
+								<button class="product_description_cart_counter_plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+
+							</div>
+
+							<div class="product_description_cart_btn basket_alert_btn">
+
+								Добавить в корзину
+
+							</div>
+
+							<div class="product_description_cart_like favorites_alert_btn">
+
+									<img  id="product_description_cart_like_icon" src="img/product_description_cart_like_icon.svg" alt="упс">
+
+							</div>
+
+						</div>
+
+						<div class="product_description_cartdefine">
+
+							<a href="">Купить в 1 клик</a>
+							
+						</div>
+
+						<div class="product_description_line">
+						</div>
+
+						<div class="product_description_info">
+
+							<div class="product_description_info_item">
+
+								<img src="img/product_description_info_item_icon_1.svg" alt="упс">
+
+								<div class="product_description_info_item_name">
+
+									<a href="">Описание товара</a>
+									
+								</div>
+
+							</div>
+
+							<div class="product_description_info_item">
+
+								<img src="img/product_description_info_item_icon_2.svg" alt="упс">
+
+								<div class="product_description_info_item_name">
+
+									<a href="">Доставка и возврат</a>
+									
+								</div>
+
+							</div>
+
+							<div class="product_description_info_item">
+
+								<img src="img/product_description_info_item_icon_3.svg" alt="упс">
+
+								<div class="product_description_info_item_name">
+
+									<a href="">Способы оплаты</a>
+									
+								</div>
+
+							</div>		
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<div class="check_all_styles _container">
+
+				<a href="">Посмотреть все стили</a>
+				
+			</div>
+
+			<section class="gallery">
+
+				<div class="gallery_inner _container">
+					
+					<div class="gallery_left_img img">
+
+						<img src="img/gallery_left_img.png" alt="упс">
+
+						<div class="hover_img_active">
+							
+							<a href="" class="hover_img_slide">
+								<img src="img/hover_img_slide.svg" alt="упс">
+							</a>
+
+							<a href="" class="hover_img_bag">
+								<img src="img/hover_img_bag.svg" alt="упс">
+							</a>
+
+							<div class="hover_img_like">
+
+								<a href="">
+									<img src="img/hover_img_like.svg" alt="упс">
+								</a>
+
+								<div class="hover_img_like_text">
+									200
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="gallery_right_img">
+
+						<div class="gallery_right_img_top">
+
+							<div class="gallery_right_img_top_left subimg img">
+
+								<img src="img/gallery_right_img_top_left.png" alt="упс">
+
+								<div class="hover_img_active">
+
+									<a href="" class="hover_img_slide">
+										<img src="img/hover_img_slide.svg" alt="упс">
+									</a>
+
+									<a href="" class="hover_img_bag">
+										<img src="img/hover_img_bag.svg" alt="упс">
+									</a>
+
+									<div class="hover_img_like">
+
+										<a href="">
+											<img src="img/hover_img_like.svg" alt="упс">
+										</a>
+
+										<div class="hover_img_like_text">
+											200
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="gallery_right_img_top_right subimg img">
+
+								<img src="img/gallery_right_img_top_right.png" alt="упс">
+
+								<div class="hover_img_active">
+
+									<a href="" class="hover_img_slide">
+										<img src="img/hover_img_slide.svg" alt="упс">
+									</a>
+
+									<a href="" class="hover_img_bag">
+										<img src="img/hover_img_bag.svg" alt="упс">
+									</a>
+
+									<div class="hover_img_like">
+
+										<a href="">
+											<img src="img/hover_img_like.svg" alt="упс">
+										</a>
+
+										<div class="hover_img_like_text">
+											200
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="gallery_right_img_bottom">
+
+							<div class="gallery_right_img_bottom_left subimg img">
+
+								<img src="img/gallery_right_img_bottom_left.png" alt="упс">
+
+								<div class="hover_img_active">
+
+									<a href="" class="hover_img_slide">
+										<img src="img/hover_img_slide.svg" alt="упс">
+									</a>
+
+									<a href="" class="hover_img_bag">
+										<img src="img/hover_img_bag.svg" alt="упс">
+									</a>
+
+									<div class="hover_img_like">
+
+										<a href="">
+											<img src="img/hover_img_like.svg" alt="упс">
+										</a>
+
+										<div class="hover_img_like_text">
+											200
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="gallery_right_img_bottom_right subimg img">
+
+								<img src="img/gallery_right_img_bottom_right.png" alt="упс">
+
+								<div class="hover_img_active">
+
+									<a href="" class="hover_img_slide">
+										<img src="img/hover_img_slide.svg" alt="упс">
+									</a>
+
+									<a href="" class="hover_img_bag">
+										<img src="img/hover_img_bag.svg" alt="упс">
+									</a>
+
+									<div class="hover_img_like">
+
+										<a href="">
+											<img src="img/hover_img_like.svg" alt="упс">
+										</a>
+
+										<div class="hover_img_like_text">
+											200
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<footer class="footer">
+
+				<div class="footer_inner _container">
+
+					<div class="footer_left footer_item">
+
+						<div class="footer_item_header">
+							покупателям
+						</div>
+
+						<div class="footer_item_text hover">
+
+							<a href="">Каталог</a>
+							
+						</div>
+
+						<div class="footer_item_text hover">
+							<a href="">Акции</a>
+						</div>
+
+						<div class="footer_item_text hover">
+							<a href="">Бренды</a>
+						</div>
+
+					</div>
+
+					<div class="footer_midle footer_item">
+
+						<div class="footer_item_header">
+							о нас
+						</div>
+
+						<div class="footer_item_text hover">
+							<a href="">О компании</a>
+						</div>
+
+						<div class="footer_item_text hover">
+							<a href="">Новости</a>
+						</div>
+
+						<div class="footer_item_text hover">
+							<a href="">Команда</a>
+						</div>
+						
+					</div>
+
+					<div class="footer_form footer_item">
+
+						<div class="footer_item_header header_form">
+							Узнайте первыми о новинках и акциях
+						</div>
+
+						<input type="email" placeholder="Адрес электронной почты">
+						<span class="form__error">
+							Введите E-Mail в формате example@site.com
+						</span>
+
+						<a href="">Подписаться</a>
+						
+					</div>
+					
+				</div>
+				
+			</footer>
+
+	<div id="header_icon_menu_open">
+
+		<img id="header_icon_menu_close" onclick="openMenu()" src="img/header_icon_menu_close.svg" alt="упс">
+
+		<a href="" class="header_icon_menu_open_item">
+			постельное белье
+		</a>
+
+		<a href="" class="header_icon_menu_open_item">
+			одежда для дома
+		</a>
+
+		<a href="" class="header_icon_menu_open_item">
+			одежда для улицы
+		</a>
+
+		<div href="" class="header_icon_menu_open_item header_menu_exit" onclick="openMenu()">
+			выход
+		</div>
+		
+	</div>
+
+	<div class="basket_alert">
+		Товар добавлен в корзину
+	</div>
+		
+	<div class="favorites_alert">
+		Товар добавлен в избранное
+	</div>
+		
+
+	</div>
+
+	<script src="js/header_script.js"></script>
+	<script src="js/header_menu.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
